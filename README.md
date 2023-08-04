@@ -11,8 +11,10 @@ Simon Game is a classic memory-based game where players must repeat a sequence o
 5. Repeat the sequence by clicking on the colored buttons in the same order.
 6. If you successfully repeat the sequence, the game will add another color to the sequence.
 7. Continue repeating the sequence correctly to reach higher levels.
-8. If you make a mistake, the game will end, and your score will be displayed.
+8. If you make a mistake, the game will end and you need to start again.
 
 ## Demo
 
 The demo GIF file is available in the "Demo" folder
+
+### Enjoy playing the Simon Game!
