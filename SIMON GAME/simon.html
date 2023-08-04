@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="simon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> -->
+</head>
+
+<body>
+  <div class="menu-icon" onclick="toggleMenu()" style="font-size: 20px; font-weight:bolder;"><b>?</b></div>
+  <div class="menu">
+    <ul>
+      <li onclick="showGameDescription()" style="background: #FFF200; border-radius: 3px; color: black; width:150px">Game Description</li>
+      <li onclick="showGameRules()" style="background: #FFF200; border-radius: 3px; color: black; width:150px">Rules</li>
+    </ul>
+  </div>
+
+  <h1 id="level-title">Press A Key to Start</h1>
+
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+   <div class="game-description-popup" id="gameDescriptionPopup">
+    <!-- Game Description content goes here -->
+    <p style="font-weight: bold;">Simon is a memory game where you need to remember the sequence of colors that Simon displays and repeat it back correctly.</p>
+     <button class="ok-button" onclick="closeGameDescription()">OK</button>
+  </div>
+  <div class="game-rules-popup" id="gameRulesPopup">
+    <!-- Game Rules content goes here -->
+    <ul style=" list-style-type: none">
+      <li style="font-weight: bold;">Simon will play a sequence of colors by flashing them one by one.</li>
+      <li style="font-weight: bold;">You need to remember the sequence and repeat it back by clicking the buttons in the same order.</li>
+      <li style="font-weight: bold;">If you make a mistake, the game will end, and you'll have to start over.</li>
+      <li style="font-weight: bold;">Each time you complete a level, Simon will add one more color to the sequence, making the game progressively harder.</li>
+    </ul>
+    <button class="ok-button" onclick="closeGameRules()">OK</button>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="simon.js">
+
+</script>
+</body>
+
+</html>

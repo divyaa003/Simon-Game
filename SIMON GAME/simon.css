@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  background: rgb(4,4,59);
+background: linear-gradient(90deg, rgb(3, 3, 18) 0%, rgba(78,78,125,1) 35%, rgb(5, 18, 36) 100%);
+}
+
+#level-title {
+  font-family: 'Audiowide';
+  font-size: 3rem;
+  margin:  5%;
+  background: rgb(63, 71, 15);
+  background: linear-gradient(90deg, rgba(63, 71, 15, 1) 0%, rgba(242, 255, 17, 1) 35%, rgba(109, 112, 86, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 10px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  
+}  
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background: radial-gradient(circle at 0.2% 1.8%, rgb(255, 90, 8) 0%, rgb(88, 0, 0) 100.2%);  border-radius: 100px / 120px 10px;
+}
+
+.green {
+  background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+  border-radius: 10px 100px / 120px;
+}
+
+.blue {
+  background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(28, 126, 192) 51.5%, rgb(137, 208, 245) 100.2%);
+  border-radius: 10px 100px / 120px;
+}
+
+.yellow {
+  background: radial-gradient(circle at 3.1% 8.2%, rgba(242, 222, 5, 0.929) 0%, #ececa5 98.2%); 
+  border-radius: 100px / 120px 10px;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+} 
+
+.menu-icon {
+  padding: 5px 10px !important; 
+  background-color:#FFFF00;
+  color: black;
+  border: black;
+  border-radius: 50px;
+  cursor: pointer;
+  width: auto;
+  display: inline-block;
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  z-index: 999; 
+  box-sizing: border-box;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  padding: 10px;
+  background-color: #444;
+
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  cursor: pointer;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.game-description-popup,
+.game-rules-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border : 8px solid #FFD300;
+}
+.ok-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ok-button:hover {
+  background-color: #45a049;
+}
+
+.ok-button:active {
+  background-color: #3e8e41;
+}
+
