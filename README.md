@@ -19,5 +19,6 @@ Simon Game is a classic memory-based game where players must repeat a sequence o
 
 
 
+
 ### <span style="font-family: cursive;">Enjoy playing the Simon Game 💗 !</span>
 
