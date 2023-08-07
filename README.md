@@ -5,7 +5,7 @@ Simon Game is a classic memory-based game where players must repeat a sequence o
 ## How To Play ▶️
 
 1. Clone or download this repository to your local machine.
-2. Open the `Simon.html` file in your web browser.
+2. Open the `index.html` file in your web browser.
 3. Press any key to start the game.
 4. Watch and listen to the sequence of colors and sounds played by the computer.
 5. Repeat the sequence by clicking on the colored buttons in the same order.
