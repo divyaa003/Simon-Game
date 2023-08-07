@@ -1,6 +1,6 @@
 # Simon Game❗
 
-https://divyaa003.github.io/Simon-Game/
+https://divyaa003.github.io/Simon-Game/\n
 Simon Game is a classic memory-based game where players must repeat a sequence of colors and sounds.
 
 ## How To Play ▶️
